@@ -1,0 +1,15 @@
+img {
+  border: 5px solid chartreuse;
+  height: 442px;
+  width: 696px;
+  object-fit: cover;
+}
+
+#pic4 {
+  border: 10px solid blue;
+  border-radius: 10%;
+}
+
+#pic4:hover {
+  object-fit: none;
+}
