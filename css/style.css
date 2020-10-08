@@ -1,4 +1,4 @@
-img {
+.pics {
   border: 5px solid chartreuse;
   height: 442px;
   width: 696px;
@@ -12,4 +12,48 @@ img {
 
 #pic4:hover {
   object-fit: none;
+}
+
+#box {
+  height: 300px;
+  width: 500px;
+  background-color: chocolate;
+  border: 8px solid black;
+  border-radius: 5%;
+}
+
+#screen {
+  height: 250px;
+  width: 450px;
+  background-color: gray;
+  border-radius: 10%;
+  margin-top: 27px;
+  border: 2px solid black;
+}
+
+#screen:hover {
+  opacity: 0;
+}
+
+#screenon {
+  height: 250px;
+  width: 450px;
+  border-radius: 10%;
+  margin-left: 20px;
+  background-image: url("../img/atdance.gif");
+  object-fit: contain;
+}
+
+#panel {
+  height: 15px;
+  width: 60px;
+  background-color: darkgray;
+  margin-left: 220px;
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 282px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: +1;
 }
